@@ -1,31 +1,63 @@
-h1{
-  color: red;
-  text-underline-position: below;
+
+.Mycity {
+  padding-top: 2px;
+  overflow: auto;
+  padding-bottom: 5px;
+  width: 100%;
 }
-.top img{
+
+.cgh{
+  padding-top: 2px;
+  overflow: auto;
+}
+.Slave {
+  padding-top: 2px
+  overflow: auto;
+  padding-bottom: 5px;
+}
+.Mycity {
+  padding-top: 2px
+  overflow: auto;
+  padding-bottom: 5px;
+  boder : 2px solid red;
+}
+
+.top {
   height: 150px;
   width :250px;
   padding-top: 1px;
-  padding-right: 1px;
   padding-bottom: 1px;
-  padding-left: 1px;
-  /**border: 0.1em solid red;**/
+
 }
+
+
+
+h1{
+  color: red;
+  text-underline-position: below;}
 
 h2{
   color: red;
 }
-.Mycity > img,p{
-  padding-top: 2px;
-  /**border: 1px solid red;
-  /**grid-column-gap: 20px;**/
-}
+
+
 p{
   color:green;
   font-size: 20px;
+  font-style: italic;
+}
+img{
+width:300px;
+height: 150px;
+float:left;
+padding: 40px;
+margin: auto;
+clear: right;
+overflow: auto;
+display: block;
 }
 table,th,td{
-  color: green;
+  color: black;
    border: 0.1em solid red;
    border-collapse: collapse;
 }
